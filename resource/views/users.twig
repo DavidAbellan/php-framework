@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block title %} Lista de usuarios {% endblock %}
+{% block content %}
+    {% for user in users %}
+        -{{ user.name }}
+        </br>
+    {% else %}
+        No se encontraron users.
+
+    {% endfor  %}
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

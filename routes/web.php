@@ -5,5 +5,7 @@
              $route->addRoute(['GET','POST'], '/contacto',['Application\Controller\ContactController','contact']);
              $route->addRoute(['GET','POST'], '/contacto2',['Application\Controller\ContactController','contact2']);
              $route->addRoute('GET','/hola/{nombre}',['Application\Controller\HomeController','hola']);
+             $route->addRoute('GET','/users',['Application\Controller\UserController','users']);
+
          }
      );

@@ -25,7 +25,7 @@ use Symfony\Component\Validator\Constraints as Assert;
          *     minMessage="Mínimo 2 caracteres"
          * )
          */
-        protected $name;
+        public $name;
 
         /**
          * @ORM\Column(type="string")

@@ -36,7 +36,10 @@
                        </li>                        
                        <li class="nav-item">                           
                            <a class="nav-link" href="/contacto">Contacto</a>                      
-                       </li>                   
+                       </li> 
+                         <li class="nav-item">
+                     <a class="nav-link" href="/users">Lista de Usuarios</a>
+                        </li>                  
                    </ul>
                  </div>
                  </nav>     
