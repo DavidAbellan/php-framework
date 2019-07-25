@@ -2,8 +2,10 @@
      use Application\Controller\HomeController;
      use Application\Controller\ContactController;
      use Application\Providers\Doctrine;
+     use Application\Providers\View;
 
-     return [
+
+return [
          'config.database' => function(){
              return parse_ini_file(__DIR__ . '/../../app/Config/database.ini');
 
@@ -19,5 +21,7 @@
              return new Doctrine($container);
          },
          HomeController::class=>\DI\create()->constructor(\DI\get(Doctrine::class)),
-         ContactController::class=>\DI\create()->constructor(\DI\get(Doctrine::class))
+         ContactController::class=>\DI\create()->constructor(\DI\get(Doctrine::class)),
+         View::class=> \DI\create(View::class)
+
      ];

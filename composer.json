@@ -12,7 +12,8 @@
         "symfony/validator": "^4.3",
         "respect/validation": "^1.1",
         "fzaninotto/faker": "^1.8",
-        "doctrine/annotations": "^1.6"
+        "doctrine/annotations": "^1.6",
+        "twig/twig": "^2.11"
     },
     "require-dev": {
 
