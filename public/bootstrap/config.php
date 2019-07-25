@@ -12,10 +12,12 @@
              return new HomeController($doctrine);
 
          },
-         ContactController::class=>function(){
-             return new ContactController;
+         ContactController::class=>function(Doctrine $doctrine){
+             return new ContactController($doctrine);
          },
          Doctrine::class=>function(Psr\Container\ContainerInterface $container){
              return new Doctrine($container);
-         }
+         },
+         HomeController::class=>\DI\create()->constructor(\DI\get(Doctrine::class)),
+         ContactController::class=>\DI\create()->constructor(\DI\get(Doctrine::class))
      ];

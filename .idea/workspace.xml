@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54cce94c-0016-48c5-bad0-af88a8b69f4f" name="Default Changelist" comment="" />
+    <list default="true" id="54cce94c-0016-48c5-bad0-af88a8b69f4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Entities/Entity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Entities/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controller/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controller/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/commands/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/commands/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/commands/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/commands/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/boom/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/boom/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/github/api/v3.0.0/authorizationTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/github/api/v3.0.0/authorizationTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/github/api/v3.0.0/gistsTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/github/api/v3.0.0/gistsTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/github/api/v3.0.0/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/github/api/v3.0.0/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/github/api/v3.0.0/userTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/github/api/v3.0.0/userTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/github/test/client_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/github/test/client_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/github/test/oauth_server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/github/test/oauth_server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/example/usage.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/example/usage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/uri.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/hawk/test/uri.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/osenv/osenv.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/osenv/osenv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/sshpk/lib/certificate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/sshpk/lib/certificate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/sshpk/lib/formats/openssh-cert.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/sshpk/lib/formats/openssh-cert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/sshpk/lib/formats/x509.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/sshpk/lib/formats/x509.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/sshpk/lib/identity.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bower/lib/node_modules/sshpk/lib/identity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/bootstrap/config.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,22 +49,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/bootstrap/config.php">
+        <entry file="file://$PROJECT_DIR$/app/Controller/ContactController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="192">
+              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
               <folding>
-                <element signature="e#11#53#0#PHP" expanded="true" />
+                <element signature="e#48#83#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -57,12 +77,14 @@
       <command text="cd db/" />
     </commandsHistory>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/Controller/ContactController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/database/migration/20190723155627_create_users_table.php" />
         <option value="$PROJECT_DIR$/vendor/bin/phinx.yml" />
@@ -72,8 +94,12 @@
         <option value="$PROJECT_DIR$/public/bootstrap/container.php" />
         <option value="$PROJECT_DIR$/app/Config/database.ini" />
         <option value="$PROJECT_DIR$/app/Providers/Doctrine.php" />
-        <option value="$PROJECT_DIR$/app/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/public/bootstrap/config.php" />
+        <option value="$PROJECT_DIR$/app/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/Models/Entities/user.php" />
+        <option value="$PROJECT_DIR$/app/Models/Entities/Entity.php" />
+        <option value="$PROJECT_DIR$/app/Models/Entities/User.php" />
+        <option value="$PROJECT_DIR$/app/Controller/ContactController.php" />
       </list>
     </option>
   </component>
@@ -134,6 +160,7 @@
     <option name="width" value="1890" />
     <option name="height" value="960" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -146,6 +173,30 @@
               <item name="myFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="myFramework" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Entities" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -154,6 +205,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -203,18 +255,19 @@
       <workItem from="1563924016763" duration="2255000" />
       <workItem from="1563965064256" duration="3003000" />
       <workItem from="1563979474973" duration="2069000" />
-      <workItem from="1564040208231" duration="6791000" />
+      <workItem from="1564040208231" duration="9819000" />
+      <workItem from="1564052155296" duration="2232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46948000" />
+    <option name="totallyTimeSpent" value="52208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.30445343" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.31012145" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5046296" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -235,6 +288,28 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49537036" visible="true" weight="0.31012145" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5046296" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="10" weight="0.62166965" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5079929" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -335,13 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/ContactController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -373,19 +441,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/HomeController.php">
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+        <state relative-caret-position="158">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="e#11#53#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/config.php">
+    <entry file="file://$PROJECT_DIR$/app/Controller/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="11" />
           <folding>
-            <element signature="e#11#53#0#PHP" expanded="true" />
+            <element signature="e#53#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Entities/Entity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Entities/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="e#45#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/ContactController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding>
+            <element signature="e#48#83#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

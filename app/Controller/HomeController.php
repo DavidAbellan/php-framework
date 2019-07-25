@@ -1,6 +1,7 @@
 <?php
       namespace Application\Controller ;
       use Application\Providers\Doctrine;
+      use Application\Models\Entities\User;
 
 
 class HomeController {
@@ -14,6 +15,8 @@ class HomeController {
     }
 
     public function index () {
+        $user = $this->doctrine->em->getRepository(User::class)->find(2);
+
         echo ('        
         <link rel="stylesheet" href="./components/bootstrap/dist/css/bootstrap.css">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">            
@@ -28,13 +31,14 @@ class HomeController {
                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>                    
                 </li>                    
                 <li class="nav-item">                        
-                <a class="nav-link" href=“/contacto">Contacto</a>                    
+                <a class="nav-link" href=/contacto>Contacto</a>                    
                 </li>                
                 </ul>            
                 </div>        
                 </nav>    
                 ');
         echo ('<h1>Bienvenid@</h1>');
+        \Kint::dump($user);
         \Kint::dump($this -> doctrine);
 
     }

@@ -1,7 +1,22 @@
 <?php
     namespace Application\Controller;
+    use Application\Providers\Doctrine;
+    use Application\Models\Entities\User;
+
     class ContactController{
+        protected $doctrine;
+        public function __construct(Doctrine $doctrine)
+        {
+
+
+            $this->doctrine = $doctrine;
+
+        }
         public function contact(){
+            $user = $this->doctrine->em->getRepository(User::class)->find(4);
+            $fecha = $user -> created_at;
+            $fechaString = $fecha->format('Y-m-d H:i:s');
+
             echo('
                <link rel="stylesheet" href="./components/bootstrap/dist/css/bootstrap.css"> 
                   <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
@@ -23,6 +38,20 @@
                  </nav>     
                    ');
             echo('<h1>Contacto</h1>');
+
+            \Kint::dump($user);
+            \Kint::dump($this -> doctrine);
+            echo ('<h3>'.$user->name.'</h3>');
+            echo ('<h5>'.$user->email.'</h5>');
+            echo ('<p>Fecha creación: '.$fechaString.'</p>');
+            ?>
+            <form method="post" action="/contacto2">
+                Escribe el nombre para modiﬁcar:
+                <input type="text" name="nombre">
+                <button type="submit">Enviar</button>
+            </form>
+            <?php
+
 
         }
     }

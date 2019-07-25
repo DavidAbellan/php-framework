@@ -11,7 +11,8 @@
         "kint-php/kint": "^3.2",
         "symfony/validator": "^4.3",
         "respect/validation": "^1.1",
-        "fzaninotto/faker": "^1.8"
+        "fzaninotto/faker": "^1.8",
+        "doctrine/annotations": "^1.6"
     },
     "require-dev": {
 
